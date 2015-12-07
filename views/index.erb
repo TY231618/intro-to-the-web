@@ -1,6 +1,7 @@
 
-<h1>My name is <%= ["Amigo", "Oscar", "Viking"].sample%></h1>
-
+<% if @name %>
+<h1>My name is <%= @name %></h1>
+<% end %>
   <div>
-  <img src='http://media.nbcbayarea.com/images/1200*675/WetCat.jpg' style='border: 2px dashed red'>
+    <img src='http://media.nbcbayarea.com/images/1200*675/WetCat.jpg' style='border: 2px dashed red'>
   </div>
